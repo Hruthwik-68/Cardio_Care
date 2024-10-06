@@ -50,6 +50,29 @@ This project is divided into two main components: the Website and the Machine Le
 - OpenCV
 - Other required Python libraries
 
+
+## Usage
+
+Once the installation is complete, you can start using the Cardio Care application. Here’s how:
+
+1. **Sign Up**: Create an account using your email and password.
+2. **Upload Reports**: Upload your health reports in PDF format to analyze your heart health.
+3. **View Predictions**: After analysis, view your heart attack risk predictions based on your health parameters.
+4. **Consult Doctors**: Use the app to connect with healthcare professionals for consultation regarding your health.
+5. **Track Progress**: Monitor your heart health over time with regular updates and reports.
+
+## Configuration
+
+Ensure that your Cardio Care project is properly set up. Follow these steps:
+
+1. **API Key**: Obtain an API key for the EleutherAI API to access the diet and lifestyle planning features.
+2. **Database Configuration**: Configure the database settings for storing user data and health reports.
+3. **Environment Variables**: Create a `.env` file in the root directory of your project and add the following configuration values:
+
+   ```plaintext
+   ELEUTHERA_API_KEY=YOUR_API_KEY
+   DATABASE_URL=YOUR_DATABASE_URL
+
 ### Step 1: Clone the Repository
 
 Clone the repository to your local machine:
