@@ -1,8 +1,17 @@
-Heart Attack Prediction - Cardio Care
+Heart Attack Prediction - Cardio Care - "Quad Cure (The website name has been changed to reflect the four innovators who created an innovative project in the healthcare domain)."
+
+
+
 Overview
 Heart Attack Prediction - Cardio Care is a revolutionary platform designed to reduce the heart attack death rate in India, currently at 33%, through early detection efforts. This platform offers a comprehensive solution for detecting potential heart issues using just a webcam and minimal user input. By leveraging advanced technologies such as Eulerian Video Magnification (EVM)  the platform measures vital parameters such as heart rate, HRV (Heart Rate Variability), blood pressure, oxygen saturation, stress levels, and more.
 
+
+
+
 In addition to these physiological measurements, the platform also considers the user's mental and physical health through a self-assessment questionnaire. The system then generates a detailed report that predicts the probability of a heart attack and provides actionable insights. In critical cases, users can contact a doctor directly through the platform for immediate medical assistance.
+
+
+
 
 Key Features :
 1. Webcam-Based Vital Sign Measurement: Use your webcam to measure heart rate, HRV, blood pressure, oxygen saturation, breathing rate, and parasympathetic activity.
@@ -41,7 +50,8 @@ Install the required dependencies:
 Run the Flask application:
 
 python app.py
-
+(Mainly setup databases 
+SQL and Appwrite )
 The website will be hosted locally at http://127.0.0.1:5000/. You can access it in your browser.
 
 Step 2: Setting Up the Machine Learning Service
