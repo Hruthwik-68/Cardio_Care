@@ -77,3 +77,9 @@ For more information or queries, please contact the project owner:
 Hruthwik M
 [LinkedIn](https://www.linkedin.com/in/hruthwik-m) | [GitHub](https://github.com/Hruthwik-68)
 
+
+SnapShots :
+
+1. Main Page :
+![Example Image](./images/mainpage.jpg)
+
