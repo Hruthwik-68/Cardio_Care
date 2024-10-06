@@ -50,8 +50,10 @@ Install the required dependencies:
 Run the Flask application:
 
 python app.py
-(Mainly setup databases 
-SQL and Appwrite )
+
+Note : (Mainly setup databases SQL and Appwrite )
+
+
 The website will be hosted locally at http://127.0.0.1:5000/. You can access it in your browser.
 
 Step 2: Setting Up the Machine Learning Service
