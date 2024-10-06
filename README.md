@@ -56,7 +56,7 @@ python app.py
 The website will be hosted locally at http://127.0.0.1:3005/. You can access it in your browser.
 
 This service will process the vital signs and health assessments collected from the website.
-Usage : 
+Usage :  
 1. Access the Website: Open the local server URL http://127.0.0.1:5000/ in your browser.
 2. Login or Register: Start by registering or logging in.
 3. Perform a Scan: Use your webcam to capture vital parameters like heart rate, stress levels, blood pressure, and more.
