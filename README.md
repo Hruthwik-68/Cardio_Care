@@ -80,13 +80,20 @@ Hruthwik M
 
 SnapShots :
 
-1. Main Page :
 
-![EImage](./images/mainpage.jpg)
 
-1. Flowchart of the Project
+1. Flowchart of the Project :
  
-  ![EImage](./images/mainpage.jpg)
+  ![EImage](./images/flowchart.jpg)
+
+
+2. Signup And Login Pages :
+ 
+  ![EImage](./images/loginpage.jpg)
+
+  ![EImage](./images/signup.jpg)
+
+
 
 3. Home Page
 
@@ -97,13 +104,13 @@ SnapShots :
 4. Scanning Page
 
    
-  ![EImage](./images/mainpage.jpg)
+  ![EImage](./images/scanning.jpg)
 
 
 5. Assessment Page
 
    
-  ![EImage](./images/mainpage.jpg)
+  ![EImage](./images/assesmentpage.jpg)
 
 
 6. Report Download Page
