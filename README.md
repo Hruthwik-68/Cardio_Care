@@ -95,40 +95,58 @@ SnapShots :
 
 
 
-3. Home Page
+3. Home Page :
 
   
   ![EImage](./images/mainpage.jpg)
 
 
-4. Scanning Page
+4. Scanning Page :
 
    
   ![EImage](./images/scanning.jpg)
 
 
-5. Assessment Page
+5. Assessment Page :
 
    
   ![EImage](./images/assesmentpage.jpg)
 
 
-6. Report Download Page
+6. Graph as output :
 
    
-  ![EImage](./images/mainpage.jpg)
+  ![EImage](./images/graph.jpg)
 
 
-7. Generated Report
-
-   
-  ![EImage](./images/mainpage.jpg)
-
-
-8. Contact Doctor Page
+7. See graph as Output in Website :
 
    
-  ![EImage](./images/mainpage.jpg)
+  ![EImage](./images/finalreportpage.jpg)
+
+
+8. Prediction Page :
+
+   
+  ![EImage](./images/predictionpage.jpg)
+
+
+9. Final Result Page :
+
+   
+  ![EImage](./images/finalresultpage.jpg)
+
+
+9. Downloaded Report as pdf :
+
+   
+  ![EImage](./images/report.jpg)
+
+
+9. Doctor Consulting page with automatic location tracking :
+
+   
+  ![EImage](./images/doctorpage.jpg)
 
 
 
