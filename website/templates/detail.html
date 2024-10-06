@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, rgba(1, 5, 16, 1), rgba(13, 44, 88, 1)), url('background-image.jpg') no-repeat center center fixed;
+        }
+        .form-container {
+            width: 80%;
+            max-width: 800px;
+            background-color: #d6d6d6;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .form-column {
+            flex: 1;
+            padding: 10px;
+        }
+        .form-column label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        .form-column input[type="text"],
+        .form-column input[type="checkbox"],
+        .form-column select {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-column input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-column input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-column">
+            <h2>Enter Details - Part 1</h2>
+            <form id="detailForm" method="POST" action="/save_details">
+                <label for="age">Age:</label>
+                <input type="text" id="age" name="age"><br><br>
+
+                <label for="sex">Sex:</label>
+                <select id="sex" name="sex">
+                    <option value="1">Male</option>
+                    <option value="0">Female</option>
+                </select><br><br>
+
+                <label for="diabetes">Diabetes:</label>
+                <input type="checkbox" id="diabetes" name="diabetes"><br><br>
+
+                <label for="famhistory">Family History:</label>
+                <input type="checkbox" id="famhistory" name="famhistory"><br><br>
+
+                <label for="smoking">Smoking:</label>
+                <input type="checkbox" id="smoking" name="smoking"><br><br>
+
+                <label for="obesity">Obesity:</label>
+                <input type="checkbox" id="obesity" name="obesity"><br><br>
+
+                <label for="alcohol">Alcohol Consumption:</label>
+                <input type="checkbox" id="alcohol" name="alcohol"><br><br>
+
+                <label for="exercise">Exercise (hours per week):</label>
+                <input type="text" id="exercise" name="exercise"><br><br>
+            </div>
+            <div class="form-column">
+                <h2>Enter Details - Part 2</h2>
+                <label for="diet">Diet:</label>
+                <select id="diet" name="diet">
+                    <option value="0">Poor Diet</option>
+                    <option value="1">Average Diet</option>
+                    <option value="2">Good Diet</option>
+                </select><br><br>
+
+                <label for="heartproblem">Heart Problem:</label>
+                <input type="checkbox" id="heartproblem" name="heartproblem"><br><br>
+
+                <label for="bmi">BMI:</label>
+                <input type="text" id="bmi" name="bmi"><br><br>
+
+                <label for="physicalactivity">Physical Activity:</label>
+                <input type="text" id="physicalactivity" name="physicalactivity"><br><br>
+
+                <label for="sleep">Sleep (hours per night):</label>
+                <input type="text" id="sleep" name="sleep"><br><br>
+
+                <label for="bp1">Blood Pressure (systolic):</label>
+                <input type="text" id="bp1" name="bp1"><br><br>
+
+                <label for="bp2">Blood Pressure (diastolic):</label>
+                <input type="text" id="bp2" name="bp2"><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
