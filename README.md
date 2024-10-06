@@ -81,5 +81,48 @@ Hruthwik M
 SnapShots :
 
 1. Main Page :
-![Example Image](./images/mainpage.jpg)
+
+![EImage](./images/mainpage.jpg)
+
+1. Flowchart of the Project
+ 
+  ![EImage](./images/mainpage.jpg)
+
+3. Home Page
+
+  
+  ![EImage](./images/mainpage.jpg)
+
+
+4. Scanning Page
+
+   
+  ![EImage](./images/mainpage.jpg)
+
+
+5. Assessment Page
+
+   
+  ![EImage](./images/mainpage.jpg)
+
+
+6. Report Download Page
+
+   
+  ![EImage](./images/mainpage.jpg)
+
+
+7. Generated Report
+
+   
+  ![EImage](./images/mainpage.jpg)
+
+
+8. Contact Doctor Page
+
+   
+  ![EImage](./images/mainpage.jpg)
+
+
+
 
