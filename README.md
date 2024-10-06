@@ -53,6 +53,7 @@ Install the required dependencies:
 Run the Machine Learning service:
 
 python app.py
+The website will be hosted locally at http://127.0.0.1:3005/. You can access it in your browser.
 
 This service will process the vital signs and health assessments collected from the website.
 Usage : 
@@ -67,11 +68,12 @@ Contributing
 Contributions are welcome! If you’d like to contribute, please submit a pull request or open an issue on the GitHub repository.
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
 
 Contact
 For more information or queries, please contact the project owner:
 
 Hruthwik M
-LinkedIn
-GitHub
+[LinkedIn](https://www.linkedin.com/in/hruthwik-m) | [GitHub](https://github.com/Hruthwik-68)
+
