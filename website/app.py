@@ -13,7 +13,7 @@ app.secret_key = 'your_secret_key'  # Change this to a secure secret key
 # Initialize the Appwrite client
 client = Client()
 client.set_endpoint('https://cloud.appwrite.io/v1')  # Replace with your Appwrite endpoint
-client.set_project('667f8c85002229461ca8')  # Project ID
+client.set_project('')  # Project ID
 client.set_key('[YOUR_API_KEY]')  # Replace with your API key
 
 @app.route('/')
@@ -47,8 +47,8 @@ def signup():
 
             # Save user data in the database
             databases.create_document(
-                database_id='667f8d010031471a488a',
-                collection_id='667f8d16003418fd93a2',
+                database_id='',
+                collection_id='',
                 document_id=ID.unique(),
                 data={
                     'email': email,
